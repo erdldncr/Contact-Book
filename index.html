@@ -14,9 +14,60 @@
     <li>Log Out</li>
   </ul>
 
-  <div class="search">Search the table</div>
+  <div class="search">
+    <input type="text" name="search" id="search" placeholder="Search the table">
+  </div>
 
   <!-- Create your table below -->
+  <table class="first_table">
+    <tr>
+      <td>ID</td>
+      <th>NAME</th>
+      <th>EMAIL</th>
+      <th>MOBILE PHONE</th>
+      <th>ADDRESS</th>
+    </tr>
+      <td>01</td>
+      <td>Evan Sullivan</td>
+      <td>Evan.Sullivan@example.com</td>
+      <td>(455)-600-9362</td>
+      <td>5519 Frances Ct</td>
+    <tr>
+      <td>02</td>
+      <td>Irma Morris</td>
+      <td>irma.morris@example.com</td>
+      <td>(455)-600-9362</td>
+      <td rowspan="2" ></td>
+      
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Erdal Dincer</td>
+      <td>erdal.dincer@example.com</td>
+      <td>(125)-620-9343</td>
+     
+    </tr>
+    <tr>
+      <td>03</td>
+      <td rowspan="2">Erdal Dincer</td>
+      <td>erdal.dincer@example.com</td>
+      <td>(125)-620-9343</td>
+      <td>Stone Hill Green</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>cemil.hoca@example.com</td>
+      <td>(125)-234-9343</td>
+      <td>Ankara Caddesi </td>
+    </tr>
+    <tr>
+      <td  id="last_tr" colspan="4">Total Contacts</td>
+      <td>5</td>
+    </tr>
+
+  </table>
+
+ 
 
 </body>
 </html>
